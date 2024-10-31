@@ -1,0 +1,319 @@
+.ocpc_post_layout {
+    width: 100%;
+    display: inline-block;
+    float: left;
+}
+.ocpc_post_layout .ocpc_post_main_class {
+    width: 100%;
+    display: inline-block;
+    float: left;
+}
+.ocpc_post_layout .ocpc-slider-title{
+    margin-bottom: 10px;
+}
+.ocpc_post_layout button:focus{
+    outline: 0;
+}
+.ocpc_post_layout h1.ocpc-title:not(.site-title):before {
+    background: unset;
+    content: "";
+    display: block;
+    height: 0;
+    margin: 0;
+    width: 0;
+}
+.ocpc_post_layout #ocpc-postlink {
+    text-decoration: none;
+    font-weight: bold;
+    width: 100%;
+    float: left;
+    display: inline-block;
+}
+.ocpc_post_layout .owl-theme .owl-nav [class*=owl-]:hover {
+    background: #000!important;
+    color: #FFF;
+    text-decoration: none;
+}
+.ocpc_post_layout .owl-theme .owl-prev:hover:after{
+    color: #FFF;
+}
+.ocpc_post_layout .owl-theme .owl-next:hover:after{
+    color: #FFF;
+}
+.ocpc_post_layout button.owl-prev span, .ocpc_post_layout button.owl-next span{
+    font-size: 26px;
+    background-color: rgba(0,0,0,0.6);
+    padding: 0;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    color: white;
+    display: block;
+    line-height: 26px;
+}
+.ocpc_post_layout .ocpc-content p {
+    margin: 0;
+    font-family: Arial;
+}
+.ocpc_post_layout .owl-carousel.owl-theme {
+    margin: 0;
+}
+.ocpc_post_layout .ocpc-topbox {
+    display: inline-block;
+    float: left;
+    width: 100%;
+}
+.ocpc_post_layout .ocpcmain_class{
+	width: 100%;
+	display: inline-block;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.ocpc_post_layout img {
+    width: 100%;
+    border-radius: 0px;
+    height: 305px;
+    margin-bottom: 0px!important;
+}
+.ocpc_post_layout .ocpc-title {
+    margin: 0;
+    font-family: Arial;
+}
+.ocpc_post_layout .ocpc-date {
+	width: 100%;
+	display: inline-block;
+}
+.ocpc_post_layout .ocpc-content {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+/*----------------------------------------------template1---------------------------------------------*/
+.ocpc_post_layout.tem1 .ocpc_discripton_class {
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 0 10px 0 #d2d2d2;
+    text-align: center;
+    width: 100%;
+    display:inline-block;
+}
+.ocpc_post_layout.tem1 .ocpc_image_class {
+    position: relative;
+    overflow: hidden;
+}
+.ocpc_post_layout.tem1 .ocpc_image_class:hover img {
+    -webkit-transform: scale3d(1.05,1.05,1);
+    -moz-transform: scale3d(1.05,1.05,1);
+    transform: scale3d(1.05,1.05,1);
+    transition: transform .3s ease-in-out;
+}
+/*----------------------------------------------end template1---------------------------------------------*/
+
+
+/*----------------------------------------------template2-------------------------------------------------*/
+.ocpc_post_layout.tem2 .ocpc_image_class {
+    overflow: hidden;
+    border-radius: 10px;
+    width: 100%;
+    display: inline-block;
+    float: left;
+    padding-top: 80%;
+    position: relative;
+}
+.ocpc_post_layout.tem2 .ocpc_image_class img {
+    border-radius: 10px;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transition: transform 0.3s ease, filter 0.3s;
+    transform: scale(1) translate(-50%, -50%);
+    left: 50%;
+    transform-origin: 0 0;
+    backface-visibility: hidden;
+    min-width: 80%;
+    max-width: inherit !important;
+}
+.ocpc_post_layout.tem2 .ocpc-topbox:hover .ocpc_image_class img {
+    transform: scale(1.1) translate(-50%, -50%);
+    transform-origin: 0 0;
+    filter: grayscale(1);
+    border-radius: 10px;
+}
+.ocpc_post_layout.tem2 .ocpcmain_image_class {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.ocpc_post_layout.tem2 .ocpc_discripton_class {
+    position: absolute;
+    z-index: 2;
+    top: -1px;
+    right: -1px;
+    bottom: -1px;
+    left: -1px;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 0.3s, visibility 0.3s;
+    text-align: center;
+    box-sizing: border-box;
+    color: #fff;
+    background: rgba(0,0,0,0.8);
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.ocpc_post_layout.tem2 .ocpc-topbox:hover .ocpc_discripton_class {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+    padding-top: 0;
+}
+.ocpc_post_layout.tem2 .ocpc_inner_discripton_class {
+    width: 80%;
+    margin: 0 auto;
+    transform: translateY(30%);
+    transition: 0.3s all ease;
+}
+.ocpc_post_layout.tem2 .ocpc-topbox:hover .ocpc_inner_discripton_class {
+    transform: translateY(0);
+}
+
+
+/*slider*/
+.ocpc_post_layout.tem2.carousel .ocpc-topbox {
+    width: 100%;
+}
+/*----------------------------------------------end template2---------------------------------------------*/
+
+
+/*----------------------------------------------template3-------------------------------------------------*/
+.ocpc_post_layout.tem3 .ocpc_image_class {
+    position: relative;
+    overflow: hidden;
+}
+.ocpc_post_layout.tem3 .ocpc_image_class:hover img {
+    -webkit-transform: scale3d(1.05,1.05,1);
+    -moz-transform: scale3d(1.05,1.05,1);
+    transform: scale3d(1.05,1.05,1);
+    transition: transform .3s ease-in-out;
+    filter: grayscale(1);
+}
+/*----------------------------------------------end template3---------------------------------------------*/
+
+/*----------------------------------------------template4-------------------------------------------------*/
+.ocpc_post_layout.tem4 img {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 0px!important;
+}
+.ocpc_post_layout.tem4 .ocpc_discripton_class {
+    position: absolute;
+    background: rgba(255,255,255,0.8);
+    left: 0px;
+    bottom: -95px;
+    right: 0px;
+    padding: 10px;
+    z-index: 9;
+    transition: all .3s ease-in-out;
+    color: #fff;
+    min-height: 160px;
+}
+.ocpc_post_layout.tem4 .ocpc_inner_discripton_class {
+    padding: 5px;
+    border: 1px solid #b1b1b1;
+}
+.ocpcmain_class:hover .ocpc_discripton_class {
+    bottom: 0px;
+    transition: all .3s ease-in-out;
+}
+/*----------------------------------------------end template4---------------------------------------------*/
+
+
+
+/*----------------------------------------------template5-------------------------------------------------*/
+.ocpc_post_layout.tem5 .ocpc_discripton_class {
+    background: #fff;
+    position: relative;
+    margin: -40px 20px 20px 20px;
+    padding: 15px 15px 10px 15px;
+    box-shadow: 0px 5px 6px -6px #00000073;
+    min-height: 150px;
+}
+.ocpc_post_layout.tem5.masonry .ocpc_discripton_class {
+    min-height: inherit;
+}
+.ocpc_post_layout.tem5 .ocpc_image_class {
+    position: relative;
+    overflow: hidden;
+}
+.ocpc_post_layout.tem5 .ocpc_image_class:hover img {
+    -webkit-transform: scale3d(1.05,1.05,1);
+    -moz-transform: scale3d(1.05,1.05,1);
+    transform: scale3d(1.05,1.05,1);
+    transition: transform .3s ease-in-out;
+    filter: grayscale(1);
+}
+/*----------------------------------------------end template5-------------------------------------------------*/
+
+
+/*----------------------------------------------masonry grid----------------------------------------------*/
+/*template 1*/
+.insta_masonry_grid img {
+    height: inherit;
+    width: 100%;
+    margin-bottom: 0px!important;
+}
+.ocpc_post_layout.tem1 .insta_masonry_grid .ocpc_discripton_class {
+    border: 1px solid #d2d2d2;
+}
+
+.ocpc_post_layout.tem2 .insta_masonry_grid .ocpc_image_class {
+    padding-top: 0px;
+    border-radius: 0px;
+}
+.ocpc_post_layout.tem2 .insta_masonry_grid .ocpcmain_image_class{ border-radius: 0; }
+.ocpc_post_layout.tem2 .insta_masonry_grid .ocpc_image_class img {
+    position: inherit;
+    transform: inherit;
+    border-radius: 0px;
+}
+.ocpc_post_layout.tem2 .insta_masonry_grid .ocpc-topbox:hover .ocpc_image_class img {
+    transform: inherit;
+    filter: grayscale(1);
+     border-radius: 0px;
+}
+.ocpc_post_layout.tem4 .insta_masonry_grid img {
+    height: inherit;
+    width: 100%;
+    margin-bottom: 0px!important;
+}
+/*----------------------------------------------end masonry grid----------------------------------------------*/
+
+
+.ocpost_page.pagination {
+    width: 100%;
+    display: inline-block;
+    float: left;
+    text-align: center;
+}
+.ocpc-author {
+    float: left;
+    width: 100%;
+    display: inline-block;
+}
+.ocpost_page.pagination a {
+    padding: 3px 12px;
+    background-color: #0073aa;
+    color: #fff;
+    text-decoration: none!important;
+}
+.ocpost_page.pagination span {
+    padding: 3px 12px;
+    background-color: #fff;
+    color: #0073aa;
+    text-decoration: none!important;
+}
